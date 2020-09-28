@@ -1,0 +1,12 @@
+import java.util.Comparator;
+/* Object of a class that defines the ordering
+ class MileageComparator implements a Comparator of type Destination. */
+public class MileageComparator implements Comparator<Destination>
+ {
+  // compare Destination objects d1 and d2.
+  public int compare(Destination d1, Destination d2)
+  {
+ // return the difference of the distances between Destination objects d1 and d2.
+   return(d2.getNormalMiles() - d1.getNormalMiles());
+    }
+ }
